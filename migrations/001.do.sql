@@ -1,5 +1,3 @@
-CREATE DATABASE membership_management;
-
 CREATE TABLE members (
     member_id SERIAL PRIMARY KEY,
     first_name VARCHAR(50) NOT NULL,
